@@ -1,0 +1,24 @@
+body {
+	background: url(http://desktop-wallpapers.net/wallpapers/foods/72/1280-chinese-tea.jpg);
+	background-size: cover;
+	
+}
+
+h1, h2 {
+	color: rgba(0,0,0,.5);
+	font-family: Arial, helvetica, sans-serif;
+	text-align: center;
+	
+}
+h1 {
+	font-size: 300%;
+	text-transform: uppercase; 
+}
+h2	{font-size: 175%;
+	text-decoration: underline;
+}
+p, ul { color: rgba(0,0,0,.5);
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 150%;
+	text-align: left; 
+}
