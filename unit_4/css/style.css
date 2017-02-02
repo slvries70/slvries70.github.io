@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Amiri|Lato');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
 body {
 	background: url(http://desktop-wallpapers.net/wallpapers/foods/72/1280-chinese-tea.jpg);
 	background-size: cover;
@@ -38,10 +44,19 @@ p, ul {color: rgba(0,0,0,.7);
     list-style-type: none;
     font-size: 100%;
     font-family: Arial, helvetica, sans-serif;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 #navlinks a {
 	color:rgba(0,0,0,.7);
+	text-decoration: none;
+}
+
+li {
+	border-right: 1.5px solid #000;
+}
+
+li:last-child {
+	border-right: none;
 }
 
