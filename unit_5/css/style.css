@@ -13,41 +13,51 @@ body {
 	font-size: 16px; /*1em = 16px*/
 }
 
+nav {
+	background-color: rgba(0,0,0,.8);
+	margin-left: 58em;
+}
+
 h1 {
 	color: rgba(0,0,0,.6);
 	font-family: Arial, helvetica, sans-serif;
-	text-align: center;
+	text-align: left;
 	text-transform: uppercase;
-	margin-top: 20px;
-	font-size: 3em;
+	font-size: 2.5em;
+	text-align: center;
+	padding: 20px;
+
 }
 
 h2	{
 	color: rgba(0,0,0,.6);
 	font-family: Arial, helvetica, sans-serif;
-	font-size: 1.6em;
-	margin-left: 3.5em;
+	font-size: 1.6em
 	margin-top: 30px;
+	text-align: center;
+	padding-bottom: 1em;
 	
 }
 
-p, ul {color: rgba(0,0,0,.7);
-	font-family: "Merriweather", serif; 
-	font-size: 18px;
+p  {color: rgba(255,255,255,.7);
+	font-family:"Merriweather", serif;
+	font-size: 23px;
 	width:30em;
 	font-weight: 50px;
-	margin-top: 8px;
+	text-align: left;
+	margin-right: 15em;
+	margin-left: 15em;
+	background-color: rgba(0,0,0,.4);
+	padding-right: 2em;
+	padding-left: 3em;
+	padding-top: 3em;
+	padding-bottom: 3em;
 }
 
-p {
-	margin-left: 5em;
-}
-
-ul {
-	margin-left: 6em;
-}
 #navlinks {
 	margin-left: 0;
+	text-align: left;
+	padding-left: 15px;
 }
 
 #navlinks li {
@@ -60,12 +70,13 @@ ul {
 }
 
 #navlinks a {
-	color:rgba(0,0,0,.7);
+	color:rgba(255,255,255,.7);
 	text-decoration: none;
 }
 
 #navlinks li {
-	border-right: 1.5px solid #000;
+	border-right: 1.5px solid #255;
+	border-color: rgb(255,255,255);
 }
 
 #navlinks li:last-child {
