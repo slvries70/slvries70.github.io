@@ -14,14 +14,13 @@ body {
 }
 
 nav {
-	background-color: rgba(0,0,0,.8);
-	margin-left: 58em;
+	background-color: rgba(51, 26, 0,.9);
+	width:350px;
 }
 
 h1 {
-	color: rgba(0,0,0,.6);
+	color: rgb(24, 51, 78);
 	font-family: Arial, helvetica, sans-serif;
-	text-align: left;
 	text-transform: uppercase;
 	font-size: 2.5em;
 	text-align: center;
@@ -30,7 +29,7 @@ h1 {
 }
 
 h2	{
-	color: rgba(0,0,0,.6);
+	color: rgb(24, 51, 78);
 	font-family: Arial, helvetica, sans-serif;
 	font-size: 1.6em
 	margin-top: 30px;
@@ -47,7 +46,8 @@ p  {color: rgba(255,255,255,.7);
 	text-align: left;
 	margin-right: 15em;
 	margin-left: 15em;
-	background-color: rgba(0,0,0,.4);
+	/*background-color: rgba(0,0,0,.4);*/
+	background-color: rgba(24, 51, 78, .4);
 	padding-right: 2em;
 	padding-left: 3em;
 	padding-top: 3em;
